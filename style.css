@@ -1,0 +1,194 @@
+body{
+    background-color: rgb(243, 241, 255);
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section{
+    width: 870px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 30px;
+
+}
+
+h2{
+    margin: 0px;
+    padding-bottom: 35px;
+    color: #562EFF;
+    font-size: 24px;
+
+}
+
+.top-player h3{
+    font-size: 18px;
+    padding-left: 17px;
+}
+
+
+.player{
+    display: flex;
+    align-items: center;
+ 
+}
+
+.top-player{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+
+hr{
+    margin: 30px 0px;
+    border: 1px solid #D1D1D1;
+}
+
+
+
+
+
+
+
+
+
+
+
+.blog{
+    display: flex;
+    align-items: center;
+
+}
+
+.blog h3{
+    font-size: 20px;
+    /* margin-top: 5px; */
+}
+
+.blog .blog-img img{
+    width: 177px;
+    height: 117px;
+}
+
+.blog-details{
+    margin-left: 16px;
+}
+
+.blog-author{
+    color: #9F9F9F;
+    font-size: 16px;
+}
+
+.blog-author a{
+    text-decoration: none;
+    color: #562EFF;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.all-blog{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.latest-course{
+    margin-top: 30px;
+}
+
+
+.course{
+    display: flex;
+    flex-direction: column;
+    
+    align-content: center;
+    padding: 12px;
+    Width: 252.42px;
+    Height: 300px;
+    border: 1px solid;
+    box-sizing: border-box;
+
+}
+
+
+
+.all-course{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.course .course-img img{
+    width: 100%;
+
+    
+}
+
+.course h3{
+    font-size: 20px;
+    margin-bottom: 12px;
+} 
+
+.course .course-info a{
+    text-decoration: none;
+    color: #ED6B4F;
+    display: inline-block;
+    margin-bottom: 12px;
+
+}
+
+.fa-star.filled{
+    color: #FFC014;
+    font-size: 12px;
+}
+
+.fa-star.empty{
+    color: #AEAEAE;
+    opacity: 60%;
+    font-size: 12px;
+}
+
+.rate-time{
+    display: flex;
+    justify-content: space-between;
+}
+
+.course .rate-time .rate span{
+    font-size: 13px;
+    font-weight: 400;
+    color: #A2A2A2;
+    margin-left: 5px;
+
+}
+
+.time span{
+    margin-left: 5px;
+}
+.time{
+    text-align: center;
+    Width: 94.83px;
+    Height: 29.38px;
+    border-radius: 14.69px;
+    color: #FF4A60;
+    background-color: #FFE4E8;
+    box-sizing: border-box;
+    padding-top: 2px;
+    margin-bottom: 3px;
+}
