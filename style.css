@@ -122,10 +122,34 @@ hr{
     padding: 12px;
     Width: 252.42px;
     Height: 300px;
-    border: 1px solid;
+    /* border: 1px solid; */
+    border-radius: 10px;
     box-sizing: border-box;
+    transition: 0.5s linear;
 
 }
+
+.course:hover{
+    background-color: #dfdfdf;
+
+    box-shadow: 5px 5px 10px #adadad;
+    
+}
+.course:hover .time{
+    background-color: #ffffff;
+}
+
+.course:hover .course-info h3{
+    text-shadow: 3px 3px 5px #ffffffa2;
+    color: #FFFFFF;
+    transition: 0.6s linear;
+
+}
+.course:hover .rate-time .rate span{
+    color: #ff4a60;
+    transition: 0.7s linear;
+}
+
 
 
 
@@ -186,9 +210,10 @@ hr{
     Width: 94.83px;
     Height: 29.38px;
     border-radius: 14.69px;
-    color: #FF4A60;
+    color: #ff4a60;
     background-color: #FFE4E8;
     box-sizing: border-box;
     padding-top: 2px;
     margin-bottom: 3px;
+    transition: 0.4s linear;
 }
